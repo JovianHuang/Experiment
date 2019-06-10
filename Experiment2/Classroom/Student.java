@@ -5,7 +5,7 @@ public class Student {
   private String name;
 
   public Student(String name) {
-    this.identity = "å­¦ç”Ÿ";
+    this.identity = "Ñ§Éú";
     this.name = name;
   }
 

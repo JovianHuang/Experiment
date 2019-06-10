@@ -2,10 +2,10 @@ package Classroom;
 
 public class Classroom {
   public static void main(String[] args) {
-    System.out.println("æ•™å­¦æ´»åŠ¨ä»æ•™å®¤å¼€å§‹ã€‚");
-    Teacher teacher = new Teacher("å¼ ");
-    System.out.println("æˆ‘æ˜¯" + teacher.getName() + teacher.getIdentity());
-    Student student = new Student("é»„é”®ä¼Ÿ");
-    System.out.println("æˆ‘æ˜¯" + student.getIdentity() + "ï¼Œåå­—æ˜¯ï¼š" + student.getName());
+    System.out.println("½ÌÑ§»î¶¯´Ó½ÌÊÒ¿ªÊ¼¡£");
+    Teacher teacher = new Teacher("ÕÅ");
+    System.out.println("ÎÒÊÇ" + teacher.getName() + teacher.getIdentity());
+    Student student = new Student("»Æ¼üÎ°");
+    System.out.println("ÎÒÊÇ" + student.getIdentity() + "£¬Ãû×ÖÊÇ£º" + student.getName());
   }
 }
