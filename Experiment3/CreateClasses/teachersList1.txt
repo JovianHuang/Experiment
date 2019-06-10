@@ -1,0 +1,5 @@
+Teacher0    male    43  ComputerScience
+Teacher1    female  35  MathematicalLogic
+Teacher2    male    44  ProbabilityTheory
+Teacher3    female  37  MathematicalStatistics
+Teacher4    female  56  PhysicalEducation

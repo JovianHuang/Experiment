@@ -1,0 +1,7 @@
+Jovian  male    22  ComputerScience
+Coffee  male    20  Administration
+ChenC   female  22  DigitalMediaArt
+Jackson male    23  Administration
+Sawyer  male    24  CarRepair
+Peaches female  21  Administration
+Quinlan male    21  LandResourceManagement
