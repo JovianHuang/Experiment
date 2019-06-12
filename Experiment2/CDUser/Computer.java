@@ -53,6 +53,7 @@ public class Computer {
         includeCD.setSideA(scanner.nextLine());
         System.out.print("New content of side B: ");
         includeCD.setSideB(scanner.nextLine());
+        scanner.close();
         return true;
       }
     }

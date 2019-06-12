@@ -16,6 +16,7 @@ public class Coefficient {
     this.firstPowerTerm = scanner.nextInt();
     System.out.print("The Coefficient of the zero power term: ");
     this.zeroPowerTerm = scanner.nextInt();
+    scanner.close();
   }
 
   public int getZeroPowerTerm() {
