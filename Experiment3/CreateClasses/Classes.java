@@ -1,8 +1,4 @@
-/*
 package CreateClasses;
-
-import Classroom.Student;
-import Classroom.Teacher;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -39,7 +35,7 @@ public class Classes {
     String[] tmpArray0;
     String[][] tmpArray1;
     try {
-      Scanner infile = new Scanner(new File("./Experiment/3/CreateClasses/" + filename)).useDelimiter(",\\s*");
+      Scanner infile = new Scanner(new File("./Experiment3/CreateClasses/" + filename)).useDelimiter(",\\s*");
       List<String> tmp = new ArrayList<>();
       while (infile.hasNext()) {
         token = infile.nextLine();
@@ -108,4 +104,3 @@ public class Classes {
     }
   }
 }
-*/

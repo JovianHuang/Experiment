@@ -2,7 +2,7 @@ package jovian.selfmade;
 
 import java.util.Scanner;
 
-public abstract class Person {
+public class Person {
   private String name;
   private Gender gender = new Gender("unknown");
   private int age;
@@ -11,16 +11,6 @@ public abstract class Person {
     this.name = name;
     this.gender.setGender(genderStr);
     this.age = age;
-  }
-
-  public Person() {
-    Scanner sc = new Scanner(System.in);
-    System.out.print("Please enter the name: ");
-    this.name = sc.nextLine();
-    System.out.print("Please enter the gender: ");
-    gender.setGender(sc.nextLine());
-    System.out.print("Please enter the age: ");
-    this.age = Integer.parseInt(sc.nextLine());
   }
 
   private String getName() {
@@ -35,23 +25,20 @@ public abstract class Person {
     return age;
   }
 
-  public void resetName(String name) {
+  public void setName(String name) {
     this.name = name;
   }
 
-  public void resetGender(String genderStr) {
+  public void setGender(String genderStr) {
     this.gender.setGender(genderStr);
   }
 
-  public void resetAge(int age) {
+  public void setAge(int age) {
     this.age = age;
   }
 
-//  protected void printPersonInfo() {
-//    System.out.print("Name: " + this.getName() + ", Gender: " + this.getGender() + ", Age: " + this.getAge());
-//  }
   protected void printPersonInfo() {
-    System.out.print(this.getName() + "\t" + this.getGender() + "\t" + this.getAge());
+    System.out.print(this.getName() + "\t" + this.getGender() + "\t" + this.getAge() + "\t");
   }
 }
 
